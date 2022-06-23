@@ -1,0 +1,36 @@
+.header{
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+    display: flex;
+    height: 70px;
+    border-bottom: 1px;
+    box-shadow: 1px 2px 2px 0px #8F8888;
+}
+
+.header .header-logo{
+    height: 50px;
+}
+
+.header .header-logout{
+    padding: 10px;
+    font-size: 20px;
+    background: #0C0CBF;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}
+
+.header .header-logout:hover{
+    background-color: rgb(237, 135, 135);
+    color: black;
+}
+.profile-button{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.header-other-button{
+    cursor: pointer;
+}
